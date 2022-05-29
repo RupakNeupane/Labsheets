@@ -9,7 +9,7 @@
 //Sample program of topic 1
 #include <iostream>
 using namespace std;
-namespace sample1{
+namespace sample11{
     int main(){
         int height;
         cout<<"Enter your height:"<<endl;

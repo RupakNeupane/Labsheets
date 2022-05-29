@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     int ls;
-    cout << "Labsheet No. = ";
+    cout << "Labsheet No. =";
     cin >> ls;
     switch (ls){
         case 1:labsheet1::main();

@@ -8,18 +8,19 @@
 #endif //LABSHEETS_LS1_H
 #include "ls11.h"
 #include "ls12.h"
+#include "ls13.h"
 using namespace std;
 namespace labsheet1{
     void ls11(){
         int choice;
         up:
-        cout<<endl<<"1. Sample program of topic 1"<<endl;
+        cout<<"1. Sample program of topic 1"<<endl;
         cout<<"2. Add and multiply two numbers"<<endl;
         cout<<"3. Greatest among three numbers"<<endl;
         cout<<"4. Fibonacci"<<endl;
         cin>>choice;
         switch (choice){
-            case 1:sample1::main();
+            case 1:sample11::main();
                 break;
             case 2:add_multiply::main();
                 break;
@@ -49,7 +50,21 @@ namespace labsheet1{
             default: goto up;
         }
     }
-    //void ls13(){
+    void ls13() {
+        int choice;
+        up:
+        cout<<"Choose the number"<<endl;
+        cout<<"1.Sample structure"<<endl;
+        cout<<"2.Store roll,name,age"<<endl;
+        cout<<"3.add two distances inch-feet"<<endl;
+        cin>>choice;
+        switch (choice){
+            case 1:sample13::main();break;
+            case 2:ls1_3_2::main();break;
+            case 3:add_inch_feet::main();break;
+            default: goto up;
+        }
+    }
     int main(){
         int choice;
         up:
@@ -61,7 +76,7 @@ namespace labsheet1{
         switch (choice){
             case 1:ls11();break;
             case 2:ls12();break;
-            //case 3:ls13();break;
+            case 3:ls13();break;
             default:
                 cout<<"Invalid number try again"<<endl;
                 goto up;

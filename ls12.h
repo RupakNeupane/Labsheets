@@ -1,5 +1,4 @@
-//
-//
+//Call by Value and Call By Reference
 
 #ifndef LABSHEETS_LS12_H
 #define LABSHEETS_LS12_H
@@ -7,7 +6,7 @@
 #endif //LABSHEETS_LS12_H
 #include <iostream>
 using namespace std;
-
+//Call By Value
 namespace callbyval{
     void call_by_val(int a){
         a=20;
@@ -21,6 +20,7 @@ namespace callbyval{
     }
 }
 
+//Swap two numbers using call by value
 namespace swapbyvalue{
     void call_by_val(int x, int y){
         int c;
@@ -39,6 +39,8 @@ namespace swapbyvalue{
         return 0;
     }
 }
+
+//Call By Reference
 namespace callbyref{
     void call_by_ref(int &a){
         a=20;
@@ -52,6 +54,7 @@ namespace callbyref{
     }
 }
 
+//Swap two numbers using call by reference
 namespace swapbyref{
     void call_by_ref(int &x, int &y){
         int c;
