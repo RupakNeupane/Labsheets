@@ -3,4 +3,4 @@ project(labsheets)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(labsheets main.cpp)
+add_executable(labsheets main.cpp ls11.h)
