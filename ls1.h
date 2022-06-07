@@ -1,6 +1,4 @@
 //
-// Created by Dell on 5/29/2022.
-//
 
 #ifndef LABSHEETS_LS1_H
 #define LABSHEETS_LS1_H

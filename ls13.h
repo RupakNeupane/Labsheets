@@ -21,7 +21,8 @@ namespace sample13{
     }
 }
 //Store roll,name,age
-namespace ls1_3_2{
+namespace ls1_3_2
+{
     struct Student{
     private:
         int roll_no;
@@ -68,8 +69,8 @@ namespace add_inch_feet{
         distance z;
         z.feet=x.feet+y.feet;
         z.inch=x.inch+y.inch;
-        if (z.feet>12){
-            z.inch += int(z.feet/12);
+        if (z.feet>=12){
+            z.inch += z.feet/12;
             z.feet=z.feet%12;
         }
         cout<<"Total distance is "<<z.inch<<"inch "<<z.feet<<"feet "<<endl;
