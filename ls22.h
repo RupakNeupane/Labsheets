@@ -82,6 +82,7 @@ namespace volume{
         }else if (h==0){
             return (pi*pow(r,2)*l/3);
         }
+        return 0;
     }
     int main(){
         int r,h,l,choice;

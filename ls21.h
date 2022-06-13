@@ -28,6 +28,7 @@ namespace sample21{
         add(a,b);
         add(a,b,c);
         add(a,c);
+        return 0;
     }
 }
 namespace cube_overloading{
